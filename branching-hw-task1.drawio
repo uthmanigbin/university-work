@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T16:32:47.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" version="22.0.4" etag="2B_4w1f5zq6VryH4r6gU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T16:39:08.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="FbexSl-1OsE_rrALg44S" version="22.0.4" type="github">
   <diagram name="Page-1" id="09XyEvc5DPSoxoFkHaAn">
-    <mxGraphModel>
+    <mxGraphModel dx="984" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-1" target="_dn-ipp41frxiZ2tkFmh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-1" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-3" target="_dn-ipp41frxiZ2tkFmh-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-3" value="R, A, B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-6" target="_dn-ipp41frxiZ2tkFmh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-6" value="diameter = 2 * R" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-8" target="_dn-ipp41frxiZ2tkFmh-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-12" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_dn-ipp41frxiZ2tkFmh-10">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-8" target="_dn-ipp41frxiZ2tkFmh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-15" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_dn-ipp41frxiZ2tkFmh-13">
+          <mxGeometry x="-0.5115" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-8" value="&lt;div&gt;diameter &amp;gt;= A&lt;/div&gt;&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;diameter &amp;gt;= B&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343" y="350" width="165" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-11" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-python&quot;&gt;The circle can fit &lt;br&gt;inside the rectangle&lt;/code&gt;&lt;/pre&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-14" value="&lt;pre&gt;&lt;code class=&quot;!whitespace-pre hljs language-python&quot;&gt;The circle cannot fit&lt;br&gt;inside the rectangle&lt;/code&gt;&lt;/pre&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="495" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.511;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="192" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.526;exitY=0.864;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_dn-ipp41frxiZ2tkFmh-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="650" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="720" as="sourcePoint" />
+            <mxPoint x="650" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="_dn-ipp41frxiZ2tkFmh-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="720" as="sourcePoint" />
+            <mxPoint x="420" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_dn-ipp41frxiZ2tkFmh-20" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
