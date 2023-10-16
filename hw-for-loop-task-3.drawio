@@ -1,56 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T16:30:24.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="yYrrW8-7Nn3_L0i7eAmG" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T19:01:52.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="UkVdynJvglN1YQ0HoY_b" version="22.0.4" type="github">
   <diagram name="Page-1" id="55CnhVDsCvjsEEnm83hg">
     <mxGraphModel dx="984" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--1" target="VOLR_C2HLmD7dzyvsvj--3">
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--1" target="VOLR_C2HLmD7dzyvsvj--16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="160" as="targetPoint" />
+            <mxPoint x="425" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VOLR_C2HLmD7dzyvsvj--1" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="385" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--3" target="VOLR_C2HLmD7dzyvsvj--5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--3" value="N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--5" target="VOLR_C2HLmD7dzyvsvj--6">
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--16" target="VOLR_C2HLmD7dzyvsvj--19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--5" target="VOLR_C2HLmD7dzyvsvj--9">
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--16" value="&lt;div&gt;heads = 0&lt;/div&gt;&lt;div&gt;tails = 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;i = 0&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--19" target="VOLR_C2HLmD7dzyvsvj--30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="270" as="targetPoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--5" value="i &amp;lt;= N" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="230" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--6" target="VOLR_C2HLmD7dzyvsvj--5">
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--19" target="VOLR_C2HLmD7dzyvsvj--29">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--19" value="i &amp;lt; 200" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--23" target="VOLR_C2HLmD7dzyvsvj--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--23" target="VOLR_C2HLmD7dzyvsvj--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--23" value="rand == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--24" value="heads++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--26" value="tails++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--29" value="heads &amp;amp;&amp;amp; tails" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--30" target="VOLR_C2HLmD7dzyvsvj--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="350" />
-              <mxPoint x="100" y="210" />
-              <mxPoint x="425" y="210" />
+              <mxPoint x="120" y="370" />
+              <mxPoint x="120" y="240" />
+              <mxPoint x="400" y="240" />
+              <mxPoint x="400" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--6" value="random = rand[1,10]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VOLR_C2HLmD7dzyvsvj--9" target="VOLR_C2HLmD7dzyvsvj--12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--9" value="random" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="320" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VOLR_C2HLmD7dzyvsvj--12" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="480" width="80" height="80" as="geometry" />
+        <mxCell id="VOLR_C2HLmD7dzyvsvj--30" value="&lt;div&gt;random == rand[1-2]&lt;/div&gt;&lt;div&gt;i++&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
