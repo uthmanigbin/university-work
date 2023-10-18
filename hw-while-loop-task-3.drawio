@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T20:22:24.158Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="4wYU3x7_CfH4fEk3ZDF8" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T20:24:50.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="A3dSF9uOCXTM4Exq5TEm" version="22.0.4" type="github">
   <diagram name="Page-1" id="8fNOAIj_w3cmwyOY_skU">
     <mxGraphModel dx="1834" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,6 +35,11 @@
         <mxCell id="EYSpthh8GZly6dT4dyS1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYSpthh8GZly6dT4dyS1-6" target="EYSpthh8GZly6dT4dyS1-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYSpthh8GZly6dT4dyS1-25" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EYSpthh8GZly6dT4dyS1-21">
+          <mxGeometry x="-0.4422" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EYSpthh8GZly6dT4dyS1-6" value="number != guess" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
