@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T11:36:39.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="r4U4dV8iWYYwGfsaO7vO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T11:39:10.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="RoiB1O3GwnMkQT8xYkvx" version="22.0.8" type="github">
   <diagram name="Page-1" id="dupmiteCSw0VlSraGn7n">
     <mxGraphModel dx="1312" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,6 +44,9 @@
         <mxCell id="2UiPsvEgunHZx74SgMW9-3" value="(A + B &amp;gt; 0) || (A + C &amp;gt; 0) || (B + C &amp;gt; 0)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="303" y="250" width="245" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UiPsvEgunHZx74SgMW9-5" target="2UiPsvEgunHZx74SgMW9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2UiPsvEgunHZx74SgMW9-5" value="You can make a positive sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="310" width="120" height="80" as="geometry" />
         </mxCell>
@@ -63,6 +66,9 @@
           <mxGeometry x="-0.0602" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UiPsvEgunHZx74SgMW9-12" target="2UiPsvEgunHZx74SgMW9-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UiPsvEgunHZx74SgMW9-12" value="You can make a negative sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="550" width="120" height="80" as="geometry" />
@@ -91,14 +97,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UiPsvEgunHZx74SgMW9-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2UiPsvEgunHZx74SgMW9-18" value="You can make a 0 sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="836" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UiPsvEgunHZx74SgMW9-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2UiPsvEgunHZx74SgMW9-20" value="cannot zero sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="836" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2UiPsvEgunHZx74SgMW9-29" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1190" width="80" height="80" as="geometry" />
+          <mxGeometry x="400" y="1210" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1UahIKIq9Ut_yr-t-uE0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="1UahIKIq9Ut_yr-t-uE0-3" source="2UiPsvEgunHZx74SgMW9-7">
           <mxGeometry relative="1" as="geometry">
@@ -111,11 +127,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1UahIKIq9Ut_yr-t-uE0-3" target="2UiPsvEgunHZx74SgMW9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1UahIKIq9Ut_yr-t-uE0-3" value="Cannot negative sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="550" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1UahIKIq9Ut_yr-t-uE0-4" target="1UahIKIq9Ut_yr-t-uE0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1UahIKIq9Ut_yr-t-uE0-4" value="Cannot Positive sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1160" as="sourcePoint" />
+            <mxPoint x="720" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1UahIKIq9Ut_yr-t-uE0-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="2UiPsvEgunHZx74SgMW9-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1160" as="sourcePoint" />
+            <mxPoint x="490" y="990" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
